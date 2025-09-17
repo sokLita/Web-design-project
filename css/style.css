@@ -45,7 +45,15 @@
      transition: transform 0.3s ease;
    
 }
-
+.card4 button{
+    margin-left: 120px;
+    margin-top: 10px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
 .card4 h1{
    font-family: "Story Script", sans-serif;
   color: rgb(103, 175, 169);
