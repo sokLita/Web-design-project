@@ -1,0 +1,924 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: rgb(27, 99, 99);
+    gap: 200px;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow:0 4px 15px rgba(0, 8, 16, 0.6);
+}
+.container h1{
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 8px;
+  color: white;
+  margin-left: 16px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.navbar{
+    width: 500px;
+    justify-content: space-around;
+    display: flex;
+    
+} 
+
+/* ............. */
+.card5 img{
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 56px;
+    height: 400px;
+    margin-bottom: 24px;
+     transition: transform 0.3s ease;
+   
+}
+
+.card4 h1{
+   font-family: "Story Script", sans-serif;
+  color: rgb(103, 175, 169);
+  padding-right: 40px;
+}
+.card3{
+    display: flex;
+    height: 50vh;
+    margin-top:100px;
+    gap: 250px;
+}
+.card5 img:hover{
+    transform: scale(1.07);
+}
+.card4 p{
+    padding-left: 120px;
+    font-size: 20px
+}
+.card4{
+    transition: transform 0.3s ease;
+}
+.card4:hover{
+    transform: scale(1.07);
+}
+/* ....... */
+.nav{
+    display: flex;
+    gap: 100px;
+    height: 80vh;
+}
+.background4 img{
+    width: 600px;
+    height: 70vh;
+    padding-bottom: 40px;
+    transition: transform 0.3s ease;
+}
+.price {
+    text-align: center;
+   
+}
+.background4 img:hover{
+    transform: scale(1.07);
+}
+/* /////// */
+.shopnow{
+    display: flex;
+    gap: 40px;
+    margin-left: 32px;
+}
+.btn button{
+    padding: 8px 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background-color: orange;
+    border: none;
+}
+.btn button:hover{
+    background-color:blue;
+    color: white;
+}
+.title{
+    margin-top:40px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 3px rgb(226, 220, 220), -1px -1px 2px lightgray;
+    font-size: 24px;
+}
+.title p{
+    margin-top: 16px;
+    margin-left:32px;
+}
+.title h1{
+    font-family: "Story Script", sans-serif;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  color:black;
+}
+/* /////// */
+.element img{
+    width: 220px;
+    height: 50vh;
+    border-radius:10%;
+    border: solid white 3px;
+    background-color: white;
+}
+.element{
+    display: flex;
+    background-color: rgb(204, 223, 223);
+    width: 430px;
+    justify-content: space-between;
+    border-radius:8%;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    transition: transform 0.3s ease;
+}
+.element:hover{
+    transform: scale(1.07);
+}
+.card1{
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 16px;
+    text-shadow: 2px 2px 3px gray, -1px -1px 2px lightgray;
+
+}
+.card1 p{
+    padding-left: 24px;
+}
+.card1 h1{
+    padding-left: 16px;
+}
+.Model{
+    display: flex;
+    gap: 48px;
+    margin-left: 48px;
+    width: 100%;
+    margin-top: 32px;
+}
+/* //////////// */
+.product{
+    display: flex;
+    margin: 24px;
+    height: 60vh;
+    gap: 40px;
+    width:100%;
+    margin-top: 32px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 80px 4px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+.content4{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+.box3{
+    height: 400px;
+    margin-left:40px ;
+    width: 300px;
+    box-shadow: rgba(222, 222, 234, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.box3 img{
+    width: 250px;
+    height: 240px;
+    margin-left: 30px;
+    margin-top: 24px;
+    transition: transform 0.3s ease;
+    padding: 0px;
+}
+.box3 img:hover{
+    transform: scale(1.07);
+}
+.box3 button{
+    padding: 8px 16px;
+    background-color: orange;
+    color:white;
+    margin-left: 100px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+    transition: transform 0.3 ease;
+}
+.box3 button:hover{
+    transform: scale(1.07);
+    background-color: blue;
+    color: white;
+}
+.box1 img{
+    width: 250px;
+    height: 240px;
+    margin-left: 24px;
+    margin-top: 24px;
+    transition: transform 0.3s ease;
+    padding: 0px;
+}
+.box1 img:hover{
+    transform: scale(1.07);
+}
+.box1 h2{
+    text-align: center;
+}
+.watch{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 32px;
+}
+
+.box1 button{
+    padding: 8px 16px;
+    background-color: orange;
+    color:white;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+}
+.button a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 3px gray, -1px -1px 2px lightgray;
+
+}
+.box1 button:hover{
+    background-color: rgba(0, 0, 255, 0.249);
+    color: white;
+}
+.box1{
+    height: 400px;
+    margin-left:40px ;
+    width: 300px;
+    box-shadow: rgba(222, 222, 234, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card1 button{
+    padding: 8px 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+
+}
+.card1 a{
+    text-decoration: none;
+}
+.picture{
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.detail h1{
+    margin-top: 80px;
+}
+.box img{
+    width: 220px;
+    height: 50vh;
+    margin-left: 16px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    
+}
+.box img:hover{
+    transform: scale(1.07);
+}
+.watch1{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.box p{
+    text-align: center;
+    margin-top: 16px;
+}
+.box button{
+    margin-left: 80px;
+    margin-top: 16px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: transform 0.3s ease;
+}
+.box button:hover{
+    background-color: blue;
+    transform: scale(1.07);
+}
+/* ////////////////// */
+.content2{
+    display: flex;
+    padding-left: 56px;
+    width: 100%;
+    gap:72px;
+    height: 450px;
+    margin-top: 24px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+.card img{
+    width: 280px;
+    height: 300px;
+    margin-top: 40px;
+    transition: transform  0.3s ease;
+    padding-left: 10px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+}
+.card img:hover{
+    transform: scale(1.07);
+}
+.card p{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+h1{
+    margin-top: 16px;
+}
+/* .............. */
+.menu {
+    margin: 20px;
+    margin-top: 72px;
+}
+.menu button {
+margin: 5px;
+padding: 16px 20px;
+cursor: pointer;
+border-radius: 8px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+     
+}
+.menu button:hover{
+    background-color:rgba(255, 255, 255, 0.359);
+    
+}
+.menu a{
+    text-decoration: none;
+}
+
+/* ////////////// */
+.content3{
+    display: flex;
+    gap:72px;
+    height: 420px;
+    padding-left: 56px;
+    margin-top: 24px;
+
+}
+.activities img{
+    width: 270px;
+    height: 350px;
+    margin-left: 24px;
+    margin-top: 16px;
+    box-shadow: rgba(197, 180, 180, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.activities p{
+    text-align: center; 
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.activities{
+    transition: transform 0.3s ease;
+   
+}
+.activities:hover{
+    transform: scale(1.07);
+}
+.background{
+    background-image: url(../image/background.png);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 70vh;
+    /* filter: blur(10ox); */
+    
+}
+.about {
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 24px;
+    /* backdrop-filter: blur(1px); */
+    text-align: center;
+    /* text-shadow: 1px 1px 1px white, -1px -1px 2px lightgray; */
+
+}
+.shop{
+    display: flex;
+    gap:200px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.shop1 img{
+    width: 250px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+.shop1 img:hover{
+    transform: scale(1.07);
+}
+.shop1 h3{
+    padding-left: 64px;
+}
+
+.about h1{
+    padding-top: 56px;
+    color: white;
+}
+.about p{
+    padding: 8px;
+}
+
+
+/* ///// */
+.footer{
+    display: flex;
+    gap: 150px;
+    background-color:rgb(204, 223, 223);
+    height: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-left: 100px;
+    margin-top: 32px;
+    width: 94%;
+    padding-top: 24px;
+}
+.facebook img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.facebook{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    gap: 16px;
+    
+}
+.watchh img{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+
+.value{
+    height: 40vh;
+    width: 800px;
+    margin: auto;
+    transition: transform 0.3s ease;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    /* box-shadow: rgba(201, 201, 222, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+/* .value:hover{
+    transform: scale(1.07);
+} */
+.value p{
+    padding-top: 24px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 40px;
+}
+.service{
+    display: flex;
+    gap: 20px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.part img{
+    width: 350px;
+    height: 350px;
+    margin-left: 16px;
+}
+.part{
+     transition: transform 0.3s ease;
+}
+.part:hover{
+    transform: scale(1.07);
+}
+.part p{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+.footer p{
+    transition: transform 0.3s ease;
+}
+.footer p:hover{
+    transform: scale(1.07);
+    background-color: rgba(0, 0, 255, 0.378);
+    
+}
+/* /////////// */
+.background1{
+    background-image: url(../background/background1.png);
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+}
+.because{
+    display: flex;
+    gap: 40px;
+}
+.question{
+    /* background-color: rgb(97, 109, 109); */
+    text-align: center;
+    width: 50%;
+    height: 50vh;
+    font-family: sans-serif;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: transform 0.3s ease;
+}
+.question:hover{
+    transform: scale(1.07);
+}
+.question h2{
+    padding-top: 56px;
+}
+.question p{
+    padding: 16px;
+}
+
+.contact{
+   height: 100vh;
+    font-family: sans-serif;
+    font-size: 24px;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    text-shadow: 2px 2px 3px white, -1px -1px 2px white;
+}
+.contact h1{
+    padding-top: 40px;
+}
+.contact p{
+    padding-top: 16px;
+}
+.input{
+    background-color: white;
+    width: 45%;
+    height: 68vh;
+    margin-left: 30%;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+.name{
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+    padding-top: 32px;
+
+}
+.name input{
+    padding: 10px 40px;
+}
+.input button{
+    width: 200px;
+    height:40px;
+    background-color: orange;
+    border: none;
+}
+.input button:hover{
+    background-color:rgba(255, 166, 0, 0.634);
+}
+
+
+/* menu */
+h1{
+    margin-top: 48px;
+}
+.main{
+    display: flex;
+    margin-top:20px;
+    flex-wrap: wrap;
+    gap: 40px;
+    width:100%;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 80px 4px; */
+}
+
+.box2 img{
+    width: 250px;
+    height: 240px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.watch{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 40px;
+}
+.star span{
+    color: blue;
+    font-size: 24px;
+}
+.box2 button{
+    padding: 8px 16px;
+    background-color: orange;
+    color:white;
+    margin-left: 68px;
+    border-radius: 8px;
+    margin-left: 100px;
+    border: none;
+    margin-top: 16px;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 3px gray, -1px -1px 2px lightgray;
+
+}
+.box2 button:hover{
+    background-color: rgba(0, 0, 255, 0.697);
+    color: white;
+}
+.box2{
+    transition: transform 0.3s ease;
+    height: 400px;
+    margin-left:40px ;
+    width: 300px;
+    box-shadow: white 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.box2:hover{
+    transform: scale(1.07);
+}
+.box2 p{
+    text-align: center;
+}
+/* the end homepage */
+
+@media screen and (max-width: 768px){
+   .Model{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    
+   }
+   .nav{
+    display: flex;
+    gap: 40px;
+    height: 50vh;
+    }
+    .title{
+        font-size: 16px;
+    }
+   .nav img{
+    width: 250px;
+    height: 400px;
+   }
+   .element{
+     width: 320px;
+     margin-left: 16px;
+   }
+   .product{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+   }
+   .content2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+   }
+   .content3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+   }
+   .footer{
+     font-size: 16px;
+     padding: 0px;
+     width: 100%;
+     display: flex;
+     gap: 32px;
+     padding-left: 24px;
+     padding-top: 24px;
+   }
+    /* .............about */
+    .value{
+        height: 25vh;
+    }
+    .service{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    .shop{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        height: 100vh;
+        font-size: 13px;
+    }
+    /* ..........content */
+    .input{
+        width: 80%;
+        margin: 0px;
+        margin-left: 80px;
+    }
+    .name{
+        padding: 0px;
+        margin: 0px;
+        margin-left: 32px;
+        padding-top: 16px;
+    }
+    .input input{
+        border: solid black 2px;
+        margin-top: 24px;
+    }
+    /* .........view */
+    .card3{
+        display: flex;
+        gap: 8px;
+    }
+    .card4 p{
+        padding: 0px;
+        padding-left: 16px;
+    }
+    .star button{
+        padding: 8px 24px;
+        margin-left: 24px;
+        background-color: orange;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        margin-top: 16px;
+    }
+}
+@media screen and (max-width:360px){
+    .container{
+        display: flex;
+        gap: 8px;
+    }
+    .navbar a{
+        font-size: 13px;
+    }
+    .container h1{
+        font-size: 16px;
+    }
+    .Model{
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav{
+        display: flex;
+        gap: 8px;
+        height: 40vh;
+    }
+    .title {
+        font-size: 8px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .background4 img{
+        width: 150px;
+        height: 300px;
+    }
+    .shopnow{
+        display: flex;
+        gap: 8px;
+    }
+    .btn button{
+        padding: 4px 24px;
+        font-size: 8px;
+    }
+    
+    .element{
+        padding: 0px;
+        margin-left: 4px;
+    }
+    .product{
+        height: 250vh;
+        margin: 0px;
+        padding: 0px;
+    }
+    .box1{
+        margin-left: 32px;
+    }
+    .content2{
+        height: 250vh;
+        margin: 0px;
+        padding: 0px;
+    }
+    .card{
+        margin-left: 32px;
+    }
+    .content3{
+        height: 250vh;
+        margin: 0px;
+        padding: 0px;
+    }
+    .activities{
+        margin-left: 32px;
+    }
+    .footer{
+        padding: 0px;
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        gap: 8px;
+        padding-top: 24px;
+    }
+    .watchh img{
+        width: 50px;
+        height: 50px;
+    }
+    .facebook{
+        display: flex;
+        gap: 4px;
+    }
+    /* about */
+    .about{
+        font-size: 16px;
+    }
+    .because{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .question{
+        width: 100%;
+    }
+    .value{
+        width: 100%;
+        height: 50vh;
+    }
+    .service{
+        height: 220vh;
+    }
+    .shop{
+        height: 200vh;
+        margin: 0px;
+    }
+    .shop1{
+        padding-left: 40px;
+    }
+    /* menu */
+    .menu button{
+        padding: 16px 8px;
+    }
+    .menu{
+        margin: 0px;
+        margin-top: 56px;
+    }
+    .menu a{
+        font-size: 10px;
+    }
+    /* contact */
+    .input{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height:60vh;
+    }
+    .name{
+        margin: 0px;
+        font-size: 16px;
+        display: flex;
+        gap: 4px;
+    }
+    .name input{
+        padding: 4px 4px;
+    }
+    /* ......view */
+    .card3{
+        display: flex;
+        flex-direction: column;
+    }
+    .card4 p{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .card5 img{
+        width: 320px;
+        height: 50vh;
+        margin-left: 16px;
+    }
+    .box img{
+        width: 150px;
+        height: 20vh;
+    }
+    .box p{
+        font-size: 12px;
+    }
+    .watch1{
+        font-size: 12px;
+    }
+    .box button{
+        margin-left: 40px;
+    }
+ 
+    /* .end */
+
+}
