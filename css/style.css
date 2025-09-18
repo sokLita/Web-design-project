@@ -43,6 +43,7 @@
     height: 400px;
     margin-bottom: 24px;
      transition: transform 0.3s ease;
+    animation: float 4s ease-in-out infinite;
    
 }
 .card4 button{
@@ -85,18 +86,21 @@
     height: 80vh;
 }
 .background4 img{
-    width: 600px;
+    width: 600px; 
     height: 70vh;
     padding-bottom: 40px;
-    transition: transform 0.3s ease;
+    animation: float 4s ease-in-out infinite;
 }
+ @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); } /* float up */
+      100% { transform: translateY(0px); }  /* back to original */
+    }
 .price {
     text-align: center;
    
 }
-.background4 img:hover{
-    transform: scale(1.07);
-}
+
 /* /////// */
 .shopnow{
     display: flex;
@@ -376,7 +380,38 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 .menu a{
     text-decoration: none;
 }
+.bank{
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+    animation: scroll 8s  linear infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
 
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.bank img{
+    width: 100px;
+    border-radius: 10%;
+    
+}
+.bank1{
+    display: flex;
+    gap: 64px;
+    margin-left: 40px;
+    animation: scroll 8s  linear infinite;
+
+}
+.bank1 img{
+    width: 100px;
+    border-radius: 10%;
+
+}
 /* ////////////// */
 .content3{
     display: flex;
@@ -388,17 +423,21 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .activities img{
     width: 270px;
+    /* animation: float 4s ease-in-out infinite; */
     height: 350px;
     margin-left: 24px;
     margin-top: 16px;
     box-shadow: rgba(197, 180, 180, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
 .activities p{
     text-align: center; 
     font-family: sans-serif;
     font-size: 20px;
+  
 
 }
+
 .activities{
     transition: transform 0.3s ease;
    
@@ -434,6 +473,7 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     width: 250px;
     height: 200px;
     transition: transform 0.3s ease;
+      animation: float 4s ease-in-out infinite;
 }
 .shop1 img:hover{
     transform: scale(1.07);
@@ -448,9 +488,11 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .about p{
     padding: 8px;
+    transition: transform 0.3s ease;
 }
-
-
+.about p:hover{
+       transform: scale(1.05);
+}
 /* ///// */
 .footer{
     display: flex;
@@ -468,12 +510,14 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     width: 30px;
     height: 30px;
     border-radius: 30px;
+
 }
 .facebook{
     display: flex;
     margin-top: 24px;
     align-items: center;
     gap: 16px;
+     /* animation: float 4s ease-in-out infinite; */
     
 }
 .watchh img{
@@ -486,7 +530,6 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     height: 40vh;
     width: 800px;
     margin: auto;
-    transition: transform 0.3s ease;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     /* box-shadow: rgba(201, 201, 222, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
 }
@@ -498,6 +541,10 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     font-size: 20px;
     font-family: sans-serif;
     padding-left: 40px;
+    transition: transform 0.3s ease;
+}
+.value p:hover{
+    transform: scale(1.07);
 }
 .service{
     display: flex;
@@ -614,6 +661,7 @@ h1{
     flex-wrap: wrap;
     gap: 40px;
     width:100%;
+
     /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 80px 4px; */
 }
 
@@ -657,7 +705,8 @@ h1{
     height: 400px;
     margin-left:40px ;
     width: 300px;
-    box-shadow: white 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* box-shadow: white 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .box2:hover{
     transform: scale(1.07);
