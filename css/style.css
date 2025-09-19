@@ -494,7 +494,17 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 .about p:hover{
        transform: scale(1.05);
 }
-
+.contactus{
+    display: flex;
+    gap: 100px;
+}
+.map iframe{
+    width: 850px;
+}
+.us{
+    margin-top: 32px;
+    font-size: 24px;
+}
 
 /* ///// */
 .footer{
@@ -832,6 +842,16 @@ h1{
         border: none;
         margin-top: 16px;
     }
+    .contactus{
+        display: flex;
+        gap: 16px;
+    }
+    .map iframe{
+        width: 450px;
+    }
+    .us{
+        font-size: 20px;
+    }
 }
 @media screen and (max-width:360px){
     .container{
@@ -1004,7 +1024,13 @@ h1{
     .box button{
         margin-left: 40px;
     }
- 
+    .contactus{
+        display: flex;
+        flex-direction: column;
+    }
+    .us{
+        margin-left: 16px;
+    }
     /* .end */
 
 }
