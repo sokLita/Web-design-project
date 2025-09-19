@@ -652,7 +652,15 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 .input button:hover{
     background-color:rgba(255, 166, 0, 0.634);
 }
+.video{
+    display: flex;
+    gap: 24px;
+    margin-left: 32px;
 
+}
+.video1{
+    border-radius: 8%;
+}
 
 /* menu */
 h1{
@@ -725,6 +733,14 @@ h1{
     flex-wrap: wrap;
     margin: 0px;
     
+   }
+   .video{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+   }
+   .video1 iframe{
+    width: 100%;
    }
    .nav{
     display: flex;
@@ -821,6 +837,15 @@ h1{
     .container{
         display: flex;
         gap: 8px;
+    }
+    .video{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .video1 iframe{
+       width: 100%;
     }
     .navbar a{
         font-size: 13px;
