@@ -147,7 +147,8 @@
     display: flex;
     background-color: rgb(204, 223, 223);
     width: 430px;
-    justify-content: space-between;
+    gap: 24px;
+    /* justify-content: space-between; */
     border-radius:8%;
     /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
     transition: transform 0.3s ease;
@@ -180,7 +181,7 @@
     display: flex;
     margin: 24px;
     height: 60vh;
-    gap: 40px;
+    gap: 24px;
     width:100%;
     margin-top: 32px;
     /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 80px 4px; */
@@ -637,11 +638,14 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .input{
     background-color: white;
-    width: 45%;
+    width: 50%;
     height: 68vh;
-    margin-left: 30%;
+    margin-left: 25%;
     border-radius: 8px;
     margin-top: 16px;
+}
+.input input{
+    margin-left: 32px;
 }
 .name{
     display: flex;
@@ -664,8 +668,8 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .video{
     display: flex;
-    gap: 24px;
-    margin-left: 32px;
+    gap: 8px;
+    margin-left: 8px;
 
 }
 .video1{
@@ -742,6 +746,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
+    gap: 80px;
     
    }
    .video{
@@ -771,26 +776,44 @@ h1{
    .product{
     display: flex;
     flex-wrap: wrap;
+    /* gap: 16px; */
     height: 100vh;
+    margin-left: 40px;
+    
+   }
+   .box1{
+    margin-top: 24px;
+    margin-left: 40px;
    }
    .content2{
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    margin-left: 32px;
-   }
+    /* margin-left: 40px; */
+    } 
+   .card{ 
+    margin-left:24px;
+    width: 300px;
+    }
    .content3{
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    gap: 64px;
-    margin-left: 32px;
+    gap: 32px;
+    /* margin-left: 80px; */
+   } 
+   .activities{
+    margin-left: 24px;
    }
    .content4{
-    margin-left: 32px;
+    margin-left: 80px;
     display: flex;
-    gap: 56px;
+    flex-wrap: wrap;
+    height: 200vh;
    }
+    .box3{
+        margin-left: 16px;
+    }
    .footer{
      font-size: 16px;
      padding: 0px;
@@ -808,20 +831,21 @@ h1{
         display: flex;
         flex-wrap: wrap;
         height: 100vh;
+        margin-left: 16px;
     }
     .shop{
         display: flex;
         flex-wrap: wrap;
-        gap: 32px;
+        gap: 30px;
         height: 100vh;
         font-size: 13px;
     }
     /* ..........content */
     .input{
-        width: 80%;
+        width: 655px;
         margin: 0px;
         margin-left: 80px;
-        height: 55vh;
+         height: 55vh;
     }
     .name{
         padding: 0px;
@@ -832,12 +856,10 @@ h1{
     .input input{
         border: solid black 2px;
         margin-top: 16px;
+
     }
     /* .........view */
-    .card3{
-        display: flex;
-        gap: 8px;
-    }
+ 
     .card4 p{
         padding: 0px;
         padding-left: 16px;
@@ -861,11 +883,17 @@ h1{
     .us{
         font-size: 20px;
     }
+    .card3{
+        display: flex;
+        gap: 16px;
+    }
+  
 }
 @media screen and (max-width:360px){
     .container{
         display: flex;
         gap: 8px;
+   
     }
     .video{
         padding: 0px;
@@ -932,6 +960,8 @@ h1{
     }
     .content4{
         margin-left: 0px;
+        height: 450vh;
+        margin-top: 24px;
     }
     .content3{
         height: 250vh;
@@ -968,6 +998,7 @@ h1{
     .question{
         width: 100%;
     }
+ 
     .value{
         width: 100%;
         height: 50vh;
@@ -997,18 +1028,19 @@ h1{
     .input{
         margin: 0px;
         padding: 0px;
-        width: 500px;
+        width: 450px;
         height:60vh;
-        /* margin-left: 32px; */
+        margin-left: 6px;
+        padding-left: 16px;
     }
     .input button{
-        margin-right:120px;
+        margin-right:80px;
     }
     .name{
         margin: 0px;
         font-size: 16px;
         display: flex;
-        gap: 4px;
+        gap: 16px;
     }
     .name input{
         padding: 4px 4px;
@@ -1047,45 +1079,13 @@ h1{
     .us{
         margin-left: 16px;
     }
+    .map iframe{
+        width: 100%;
+    }
+    .box3{
+        margin-left: 32px;
+    }
     /* .end */
 
 }
-@media screen and (min-width:1280px) {
-    .video1{
-        /* display: flex; */
-        /* gap: 8px; */
-        margin: 0px;
-        padding: 0px;
-    }
-    .product{
-        display: flex;
-        gap: 8px;
-    }
-    .content4{
-        display: flex;
-        gap: 8px;
-    }
-    .content2{
-        display: flex;
-        gap: 56px;
-    }
-    .content3{
-        display: flex;
-        gap: 56px;
-    }
-    .main{
-        display: flex;
-        gap: 32px;
-    }
-    .box2{
-        margin-left: 80px;
-    }
-    .input{
-        width: 55%;
-        margin-left: 22%;
-    }
-    .input input{
-        border: solid 2px black;
 
-    }
-}
