@@ -777,11 +777,19 @@ h1{
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    margin-left: 32px;
    }
    .content3{
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    gap: 64px;
+    margin-left: 32px;
+   }
+   .content4{
+    margin-left: 32px;
+    display: flex;
+    gap: 56px;
    }
    .footer{
      font-size: 16px;
@@ -813,6 +821,7 @@ h1{
         width: 80%;
         margin: 0px;
         margin-left: 80px;
+        height: 55vh;
     }
     .name{
         padding: 0px;
@@ -822,7 +831,7 @@ h1{
     }
     .input input{
         border: solid black 2px;
-        margin-top: 24px;
+        margin-top: 16px;
     }
     /* .........view */
     .card3{
@@ -921,6 +930,9 @@ h1{
     .card{
         margin-left: 32px;
     }
+    .content4{
+        margin-left: 0px;
+    }
     .content3{
         height: 250vh;
         margin: 0px;
@@ -985,8 +997,12 @@ h1{
     .input{
         margin: 0px;
         padding: 0px;
-        width: 100%;
+        width: 500px;
         height:60vh;
+        /* margin-left: 32px; */
+    }
+    .input button{
+        margin-right:120px;
     }
     .name{
         margin: 0px;
@@ -1033,4 +1049,43 @@ h1{
     }
     /* .end */
 
+}
+@media screen and (min-width:1280px) {
+    .video1{
+        /* display: flex; */
+        /* gap: 8px; */
+        margin: 0px;
+        padding: 0px;
+    }
+    .product{
+        display: flex;
+        gap: 8px;
+    }
+    .content4{
+        display: flex;
+        gap: 8px;
+    }
+    .content2{
+        display: flex;
+        gap: 56px;
+    }
+    .content3{
+        display: flex;
+        gap: 56px;
+    }
+    .main{
+        display: flex;
+        gap: 32px;
+    }
+    .box2{
+        margin-left: 80px;
+    }
+    .input{
+        width: 55%;
+        margin-left: 22%;
+    }
+    .input input{
+        border: solid 2px black;
+
+    }
 }
