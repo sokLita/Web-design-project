@@ -807,10 +807,9 @@ h1{
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    margin-left: 16px;
+ 
     } 
    .card{ 
-    margin-left:8px;
     width: 300px;
     }
    .content3{
