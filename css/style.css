@@ -901,7 +901,11 @@ h1{
         display: flex;
         gap: 16px;
     }
-  
+    .service{
+        display: flex;
+        gap: 16px;
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width:360px){
     .container{
@@ -1026,16 +1030,17 @@ h1{
     .service{
         height: 220vh;
     }
+    .part{
+        margin: 0px;
+        padding: 0px;
+    }
     .shop{
         height: 200vh;
         margin: 0px;
     }
-    .part{
-        margin:0px;
-    }
     .part img{
-        margin-left:16px;
         padding: 0px;
+        margin: 0px;
     }
     .shop1{
         padding-left: 40px;
