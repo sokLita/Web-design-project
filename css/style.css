@@ -1030,6 +1030,12 @@ h1{
         height: 200vh;
         margin: 0px;
     }
+    .part{
+        margin: auto;
+    }
+    .part img{
+        margin: 0px;
+    }
     .shop1{
         padding-left: 40px;
     }
