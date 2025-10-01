@@ -10,7 +10,6 @@
     height: 60px;
     position: fixed;
     width: 100%;
-    /* margin-top: 40px; */
     top: 0;
     left: 0;
     z-index: 999;
@@ -594,7 +593,7 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 .background1{
     background-image: url(../background/background1.png);
     background-size: cover;
-    height: 95vh;
+    height: 90vh;
     width: 100%;
     background-color: gray;
 }
@@ -603,7 +602,6 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     gap: 40px;
 }
 .question{
-    /* background-color: rgb(97, 109, 109); */
     text-align: center;
     width: 50%;
     height: 50vh;
@@ -626,50 +624,70 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
    height: 100vh;
     font-family: sans-serif;
     font-size: 24px;
-    backdrop-filter: blur(4px);
-    text-align: center;
-    text-shadow: 2px 2px 3px white, -1px -1px 2px white;
+    /* backdrop-filter: blur(4px); */
+    /* text-align: center; */
+    /* text-shadow: 2px 2px 3px white, -1px -1px 2px white; */
 }
 .contact h1{
     padding-top: 40px;
 }
 .contact p{
     padding-top: 16px;
+    text-align: center;
 }
 .input{
-    background-color: white;
-    width: 50%;
-    height: 68vh;
-    margin-left: 25%;
-    border-radius: 8px;
-    margin-top: 16px;
-}
-.input input{
-    margin-left: 32px;
-}
-.name{
-    display: flex;
-    gap: 40px;
-    margin-left: 80px;
-    padding-top: 32px;
+    background-color: rgb(255, 255, 255);
+    width: 63%;
+    margin: auto;
+    margin-top: 20px;
+    /* height: auto; */
+    padding: 20px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    border-radius: 16px;
 
 }
-.name input{
-    padding: 10px 40px;
+.input .name-contact{
+    display: flex;
+    gap: 60px;
+    width: 98%;
+    padding-bottom: 0px;
 }
-.input button{
-    width: 200px;
-    height:40px;
-    background-color: orange;
-    border: none;
+.input .name-contact label{
+    font-size: 20px;
+    
 }
-.input button:hover{
-    background-color:rgba(255, 166, 0, 0.634);
+.input .name-contact label span{
+    color: red;
+}
+.input .name-contact input[type="text"]{
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: solid 1px gray;
+    width: 400px;
+    margin-top: 4px;
+}
+
+.send-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 905px;
+    height: auto;
+    font-size: 14px;
+    color: white;
+    background-color: rgba(27, 99, 99, 0.591);
+    border: solid 1px gray;
+    border-radius: 8px;
+}
+.send-message:hover{
+    background-color: rgb(27, 99, 99);
 }
 .video{
     display: flex;
-    gap: 8px;
-    margin-left: 8px;
+    gap: 40px;
+    margin-left: 16px;
 
 }
 .video1{
@@ -842,21 +860,17 @@ h1{
     }
     /* ..........content */
     .input{
-        width: 655px;
-        margin: 0px;
-        margin-left: 80px;
-         height: 55vh;
+        width: 96%;
     }
-    .name{
-        padding: 0px;
-        margin: 0px;
-        margin-left: 32px;
-        padding-top: 16px;
-    }
-    .input input{
-        border: solid black 2px;
-        margin-top: 16px;
-
+    .input .name-contact input[type="text"]{
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: solid 1px gray;
+    width: 300px;
+    margin-top: 4px;
+}
+    .send-message{
+        width: 710px;
     }
     /* .........view */
  
@@ -924,6 +938,12 @@ h1{
         margin: 0px;
         padding: 0px;
         margin-top: 32px;
+    }
+    .background1 .contact h1{
+        font-size: 20px;
+    }
+    .background1 .contact p{
+        font-size: 16px;
     }
     .background4 img{
         width: 150px;
@@ -1026,29 +1046,29 @@ h1{
     }
     /* contact */
     .input{
-        margin: 0px;
-        padding: 0px;
-        width: 450px;
-        height:60vh;
-        margin-left: 6px;
-        padding-left: 16px;
+        width: 96%;
     }
-    @media  (max-width:360px) {
-        .input{
-            width: 100%;
-        }
-    }
-    .input button{
-        margin-right:80px;
-    }
-    .name{
-        margin: 0px;
-        font-size: 16px;
-        display: flex;
-        gap: 16px;
-    }
-    .name input{
-        padding: 4px 4px;
+    .input .name-contact{
+    display: flex;
+    gap: 36px;
+    padding-bottom: 0px;
+    margin-left: 12px;
+}
+    .input .name-contact label{
+    font-size: 12px;
+    
+}
+    .input .name-contact input[type="text"]{
+    padding: 8px;
+    border-radius: 4px;
+    border: solid 1px gray;
+    width: 128px;
+    margin-top: 4px;
+    font-size: 8px;
+}
+    .send-message{
+        width: 310px;
+        padding: 8px;
     }
     /* ......view */
     .card3{
