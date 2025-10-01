@@ -1050,9 +1050,8 @@ h1{
     }
     .input .name-contact{
     display: flex;
-    gap: 30px;
+    gap: 24px;
     padding-bottom: 0px;
-    margin-left: 10px;
 }
     .input .name-contact label{
     font-size: 12px;
